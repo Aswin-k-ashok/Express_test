@@ -1,0 +1,26 @@
+{{!-- {{#each values}}
+
+    <h2>{{@index}}. {{this}}</h2>
+   
+{{/each}}
+
+
+
+ <h1>{{person.comments.comment}}</h1>
+ <h2>{{person.name}}</h2>
+ <h3>{{person.comments.date}}</h3>
+ <h1>{{person.values2.[1]}}</h1> --}}
+
+ {{#if admin.adm}}
+    <h1>admin here</h1>
+    {{else}}
+    <h1>where is the admin</h1>
+ {{/if}}
+
+
+
+ {{#with person}}
+
+ <h1>{{comments.comment}}</h1>
+
+ {{/with}}
